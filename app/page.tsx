@@ -192,7 +192,7 @@ export default function Home() {
               Ready to Begin Your Journey?
             </h2>
             <p className="text-xl md:text-2xl text-white/70 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-              Let's create something beautiful together. Transform your memories into timeless art.
+              Let&apos;s create something beautiful together. Transform your memories into timeless art.
             </p>
             <motion.div
               whileHover={{ scale: 1.05 }}

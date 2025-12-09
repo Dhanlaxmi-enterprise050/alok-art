@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+import Image from "next/image";
 
 interface Testimonial {
   id: string;
@@ -81,7 +82,7 @@ export default function TestimonialCarousel({
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="text-2xl md:text-3xl text-ink/80 mb-10 leading-relaxed font-light italic"
                   >
-                    "{testimonial.text}"
+                    &ldquo;{testimonial.text}&rdquo;
                   </motion.p>
 
                   {/* Author Info */}
@@ -95,10 +96,12 @@ export default function TestimonialCarousel({
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-br from-gold to-gold-dark rounded-full blur-md opacity-50" />
                       <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-gold/30">
-                        <img
+                        <Image
                           src={getAvatar(testimonial.name)}
                           alt={testimonial.name}
-                          className="w-full h-full object-cover"
+                          fill
+                          className="object-cover"
+                          sizes="64px"
                         />
                       </div>
                     </div>

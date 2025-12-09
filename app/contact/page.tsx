@@ -76,11 +76,11 @@ export default function ContactPage() {
             <Heart className="h-12 w-12 text-gold mx-auto" />
           </motion.div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-ink mb-6 tracking-tight">
-            Let's Create Together
+            Let&apos;s Create Together
           </h1>
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-6" />
           <p className="text-xl md:text-2xl text-ink/60 max-w-3xl mx-auto font-light leading-relaxed">
-            Your memories deserve to be art. Share your vision, and let's bring it to life.
+            Your memories deserve to be art. Share your vision, and let&apos;s bring it to life.
           </p>
         </motion.div>
 
@@ -204,7 +204,7 @@ export default function ContactPage() {
                 Your memories deserve to be art.
               </h3>
               <p className="text-ink/70 leading-relaxed font-light">
-                Every portrait tells a story. Every sketch captures a moment. Let's preserve yours forever.
+                Every portrait tells a story. Every sketch captures a moment. Let&apos;s preserve yours forever.
               </p>
             </div>
 
